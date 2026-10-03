@@ -270,7 +270,7 @@ div.tile .rotulo { display: none; }
   position: relative; z-index: 2; align-self: center;
   padding: 4rem clamp(1.5rem, 5vw, 5rem) 4rem max(1.5rem, calc((100vw - 1120px) / 2));
 }
-.hero-foto { position: relative; z-index: 1; background-position: center 30%; min-height: 100%; }
+.hero-foto { position: relative; z-index: 1; background-position: center 45%; min-height: 100%; }
 
 .hero h1 { font-size: clamp(2.6rem, 4.8vw, 5rem); font-weight: 400; line-height: 1.05; letter-spacing: -.015em; max-width: 100%; text-wrap: balance; overflow-wrap: break-word; }
 .hero h1 em { font-style: italic; color: var(--icone); }
@@ -301,7 +301,7 @@ div.tile .rotulo { display: none; }
   .hero { display: flex; flex-direction: column; min-height: 0; }
   .hero::before { font-size: 24vw; bottom: 0; }
   /* foto no topo, com degradê que a funde ao fundo da página */
-  .hero-foto { order: -1; height: 66vh; height: 66svh; min-height: 380px; background-position: center 25%; }
+  .hero-foto { order: -1; height: 66vh; height: 66svh; min-height: 380px; background-position: center 40%; }
   .hero-foto::after {
     content: ""; position: absolute; inset: 0;
     background: linear-gradient(to bottom, rgba(248, 247, 245, 0) 45%, var(--papel) 100%);
