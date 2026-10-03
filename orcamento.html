@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orçamento - Jean Tosta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="container">
+      <nav class="menu-esq" aria-label="Menu principal">
+        <ul class="menu">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="index.html#sobre">Sobre</a></li>
+            <li><a href="index.html#servicos">Serviços</a></li>
+        </ul>
+      </nav>
+      <a class="logo" href="index.html" aria-label="Jean Tosta, página inicial">
+        <img src="logo.svg" alt="Jean Tosta">
+      </a>
+      <div class="topo-direita">
+        <nav aria-label="Menu secundário">
+          <ul class="menu">
+            <li><a href="ensaios.html">Ensaios</a></li>
+            <li><a href="orcamento.html" aria-current="page">Orçamento</a></li>
+          </ul>
+        </nav>
+        <div class="icones">
+          <a href="https://instagram.com/jeantosta_" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="0.6" fill="currentColor"/></svg>
+          </a>
+          <a href="https://wa.me/5517992645411" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 20.5l1.3-4.6A8.5 8.5 0 1 1 8.2 19.3z"/><path d="M9 8.5c0 3.2 3.3 6.5 6.5 6.5l1.2-1.4-2.2-1.1-.9.8c-1.2-.5-2.2-1.5-2.7-2.7l.8-.9-1.1-2.2z"/></svg>
+          </a>
+          <details class="busca">
+            <summary aria-label="Pesquisar">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+            </summary>
+            <form action="https://www.google.com/search" method="get" role="search">
+              <input type="hidden" name="as_sitesearch" value="SEUDOMINIO.com.br">
+              <input type="search" name="q" placeholder="Pesquisar no site" aria-label="Pesquisar no site">
+            </form>
+          </details>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="orcamento">
+      <div class="container">
+        <h1>Orçamento</h1>
+        <p style="margin-top:1.25rem">Deixe seus contatos e o local do evento. Ao enviar, abre um e-mail pronto para mim e eu respondo com valores e disponibilidade.</p>
+
+        <!-- Troque o e-mail abaixo pelo seu -->
+        <form action="mailto:lucasjean2605@gmail.com" data-email="lucasjean2605@gmail.com">
+          <div class="duas">
+            <div class="campo">
+              <label for="nome">Seu nome</label>
+              <input type="text" id="nome" name="Nome" autocomplete="name" required>
+            </div>
+            <div class="campo">
+              <label for="telefone">WhatsApp</label>
+              <div class="telefone-grupo">
+                <select id="ddi" name="DDI" aria-label="País (código de discagem)" autocomplete="tel-country-code">
+                  <option value="+93">Afeganistão (+93)</option>
+                  <option value="+27">África do Sul (+27)</option>
+                  <option value="+355">Albânia (+355)</option>
+                  <option value="+49">Alemanha (+49)</option>
+                  <option value="+376">Andorra (+376)</option>
+                  <option value="+244">Angola (+244)</option>
+                  <option value="+1264">Anguilla (+1264)</option>
+                  <option value="+1268">Antígua e Barbuda (+1268)</option>
+                  <option value="+966">Arábia Saudita (+966)</option>
+                  <option value="+213">Argélia (+213)</option>
+                  <option value="+54">Argentina (+54)</option>
+                  <option value="+374">Armênia (+374)</option>
+                  <option value="+297">Aruba (+297)</option>
+                  <option value="+61">Austrália (+61)</option>
+                  <option value="+43">Áustria (+43)</option>
+                  <option value="+994">Azerbaijão (+994)</option>
+                  <option value="+1242">Bahamas (+1242)</option>
+                  <option value="+973">Bahrein (+973)</option>
+                  <option value="+880">Bangladesh (+880)</option>
+                  <option value="+1246">Barbados (+1246)</option>
+                  <option value="+32">Bélgica (+32)</option>
+                  <option value="+501">Belize (+501)</option>
+                  <option value="+229">Benin (+229)</option>
+                  <option value="+1441">Bermudas (+1441)</option>
+                  <option value="+375">Bielorrússia (+375)</option>
+                  <option value="+591">Bolívia (+591)</option>
+                  <option value="+387">Bósnia e Herzegovina (+387)</option>
+                  <option value="+267">Botsuana (+267)</option>
+                  <option value="+55" selected>Brasil (+55)</option>
+                  <option value="+673">Brunei (+673)</option>
+                  <option value="+359">Bulgária (+359)</option>
+                  <option value="+226">Burkina Faso (+226)</option>
+                  <option value="+257">Burundi (+257)</option>
+                  <option value="+975">Butão (+975)</option>
+                  <option value="+238">Cabo Verde (+238)</option>
+                  <option value="+237">Camarões (+237)</option>
+                  <option value="+855">Camboja (+855)</option>
+                  <option value="+1">Canadá (+1)</option>
+                  <option value="+974">Catar (+974)</option>
+                  <option value="+7">Cazaquistão (+7)</option>
+                  <option value="+235">Chade (+235)</option>
+                  <option value="+56">Chile (+56)</option>
+                  <option value="+86">China (+86)</option>
+                  <option value="+357">Chipre (+357)</option>
+                  <option value="+57">Colômbia (+57)</option>
+                  <option value="+269">Comores (+269)</option>
+                  <option value="+243">Congo (Rep. Dem.) (+243)</option>
+                  <option value="+242">Congo (Rep.) (+242)</option>
+                  <option value="+850">Coreia do Norte (+850)</option>
+                  <option value="+82">Coreia do Sul (+82)</option>
+                  <option value="+225">Costa do Marfim (+225)</option>
+                  <option value="+506">Costa Rica (+506)</option>
+                  <option value="+385">Croácia (+385)</option>
+                  <option value="+53">Cuba (+53)</option>
+                  <option value="+599">Curaçao (+599)</option>
+                  <option value="+45">Dinamarca (+45)</option>
+                  <option value="+253">Djibuti (+253)</option>
+                  <option value="+1767">Dominica (+1767)</option>
+                  <option value="+20">Egito (+20)</option>
+                  <option value="+503">El Salvador (+503)</option>
+                  <option value="+971">Emirados Árabes Unidos (+971)</option>
+                  <option value="+593">Equador (+593)</option>
+                  <option value="+291">Eritreia (+291)</option>
+                  <option value="+421">Eslováquia (+421)</option>
+                  <option value="+386">Eslovênia (+386)</option>
+                  <option value="+34">Espanha (+34)</option>
+                  <option value="+268">Essuatíni (+268)</option>
+                  <option value="+1">Estados Unidos (+1)</option>
+                  <option value="+372">Estônia (+372)</option>
+                  <option value="+251">Etiópia (+251)</option>
+                  <option value="+679">Fiji (+679)</option>
+                  <option value="+63">Filipinas (+63)</option>
+                  <option value="+358">Finlândia (+358)</option>
+                  <option value="+33">França (+33)</option>
+                  <option value="+241">Gabão (+241)</option>
+                  <option value="+220">Gâmbia (+220)</option>
+                  <option value="+233">Gana (+233)</option>
+                  <option value="+995">Geórgia (+995)</option>
+                  <option value="+350">Gibraltar (+350)</option>
+                  <option value="+1473">Granada (+1473)</option>
+                  <option value="+30">Grécia (+30)</option>
+                  <option value="+299">Groenlândia (+299)</option>
+                  <option value="+590">Guadalupe (+590)</option>
+                  <option value="+1671">Guam (+1671)</option>
+                  <option value="+502">Guatemala (+502)</option>
+                  <option value="+592">Guiana (+592)</option>
+                  <option value="+594">Guiana Francesa (+594)</option>
+                  <option value="+224">Guiné (+224)</option>
+                  <option value="+240">Guiné Equatorial (+240)</option>
+                  <option value="+245">Guiné-Bissau (+245)</option>
+                  <option value="+509">Haiti (+509)</option>
+                  <option value="+31">Holanda (+31)</option>
+                  <option value="+504">Honduras (+504)</option>
+                  <option value="+852">Hong Kong (+852)</option>
+                  <option value="+36">Hungria (+36)</option>
+                  <option value="+967">Iêmen (+967)</option>
+                  <option value="+1345">Ilhas Cayman (+1345)</option>
+                  <option value="+682">Ilhas Cook (+682)</option>
+                  <option value="+298">Ilhas Faroé (+298)</option>
+                  <option value="+960">Ilhas Maldivas (+960)</option>
+                  <option value="+692">Ilhas Marshall (+692)</option>
+                  <option value="+677">Ilhas Salomão (+677)</option>
+                  <option value="+1340">Ilhas Virgens Americanas (+1340)</option>
+                  <option value="+1284">Ilhas Virgens Britânicas (+1284)</option>
+                  <option value="+91">Índia (+91)</option>
+                  <option value="+62">Indonésia (+62)</option>
+                  <option value="+98">Irã (+98)</option>
+                  <option value="+964">Iraque (+964)</option>
+                  <option value="+353">Irlanda (+353)</option>
+                  <option value="+354">Islândia (+354)</option>
+                  <option value="+972">Israel (+972)</option>
+                  <option value="+39">Itália (+39)</option>
+                  <option value="+1876">Jamaica (+1876)</option>
+                  <option value="+81">Japão (+81)</option>
+                  <option value="+962">Jordânia (+962)</option>
+                  <option value="+686">Kiribati (+686)</option>
+                  <option value="+383">Kosovo (+383)</option>
+                  <option value="+965">Kuwait (+965)</option>
+                  <option value="+856">Laos (+856)</option>
+                  <option value="+266">Lesoto (+266)</option>
+                  <option value="+371">Letônia (+371)</option>
+                  <option value="+961">Líbano (+961)</option>
+                  <option value="+231">Libéria (+231)</option>
+                  <option value="+218">Líbia (+218)</option>
+                  <option value="+423">Liechtenstein (+423)</option>
+                  <option value="+370">Lituânia (+370)</option>
+                  <option value="+352">Luxemburgo (+352)</option>
+                  <option value="+853">Macau (+853)</option>
+                  <option value="+389">Macedônia do Norte (+389)</option>
+                  <option value="+261">Madagascar (+261)</option>
+                  <option value="+60">Malásia (+60)</option>
+                  <option value="+265">Malaui (+265)</option>
+                  <option value="+223">Mali (+223)</option>
+                  <option value="+356">Malta (+356)</option>
+                  <option value="+212">Marrocos (+212)</option>
+                  <option value="+596">Martinica (+596)</option>
+                  <option value="+230">Maurício (+230)</option>
+                  <option value="+222">Mauritânia (+222)</option>
+                  <option value="+52">México (+52)</option>
+                  <option value="+95">Mianmar (+95)</option>
+                  <option value="+691">Micronésia (+691)</option>
+                  <option value="+258">Moçambique (+258)</option>
+                  <option value="+373">Moldávia (+373)</option>
+                  <option value="+377">Mônaco (+377)</option>
+                  <option value="+976">Mongólia (+976)</option>
+                  <option value="+382">Montenegro (+382)</option>
+                  <option value="+1664">Montserrat (+1664)</option>
+                  <option value="+264">Namíbia (+264)</option>
+                  <option value="+674">Nauru (+674)</option>
+                  <option value="+977">Nepal (+977)</option>
+                  <option value="+505">Nicarágua (+505)</option>
+                  <option value="+227">Níger (+227)</option>
+                  <option value="+234">Nigéria (+234)</option>
+                  <option value="+47">Noruega (+47)</option>
+                  <option value="+687">Nova Caledônia (+687)</option>
+                  <option value="+64">Nova Zelândia (+64)</option>
+                  <option value="+968">Omã (+968)</option>
+                  <option value="+680">Palau (+680)</option>
+                  <option value="+970">Palestina (+970)</option>
+                  <option value="+507">Panamá (+507)</option>
+                  <option value="+675">Papua-Nova Guiné (+675)</option>
+                  <option value="+92">Paquistão (+92)</option>
+                  <option value="+595">Paraguai (+595)</option>
+                  <option value="+51">Peru (+51)</option>
+                  <option value="+689">Polinésia Francesa (+689)</option>
+                  <option value="+48">Polônia (+48)</option>
+                  <option value="+1787">Porto Rico (+1787)</option>
+                  <option value="+351">Portugal (+351)</option>
+                  <option value="+254">Quênia (+254)</option>
+                  <option value="+996">Quirguistão (+996)</option>
+                  <option value="+44">Reino Unido (+44)</option>
+                  <option value="+236">República Centro-Africana (+236)</option>
+                  <option value="+1809">República Dominicana (+1809)</option>
+                  <option value="+420">República Tcheca (+420)</option>
+                  <option value="+262">Reunião (+262)</option>
+                  <option value="+40">Romênia (+40)</option>
+                  <option value="+250">Ruanda (+250)</option>
+                  <option value="+7">Rússia (+7)</option>
+                  <option value="+685">Samoa (+685)</option>
+                  <option value="+1684">Samoa Americana (+1684)</option>
+                  <option value="+378">San Marino (+378)</option>
+                  <option value="+1758">Santa Lúcia (+1758)</option>
+                  <option value="+1869">São Cristóvão e Nevis (+1869)</option>
+                  <option value="+239">São Tomé e Príncipe (+239)</option>
+                  <option value="+1784">São Vicente e Granadinas (+1784)</option>
+                  <option value="+221">Senegal (+221)</option>
+                  <option value="+232">Serra Leoa (+232)</option>
+                  <option value="+381">Sérvia (+381)</option>
+                  <option value="+65">Singapura (+65)</option>
+                  <option value="+963">Síria (+963)</option>
+                  <option value="+252">Somália (+252)</option>
+                  <option value="+94">Sri Lanka (+94)</option>
+                  <option value="+249">Sudão (+249)</option>
+                  <option value="+211">Sudão do Sul (+211)</option>
+                  <option value="+46">Suécia (+46)</option>
+                  <option value="+41">Suíça (+41)</option>
+                  <option value="+597">Suriname (+597)</option>
+                  <option value="+992">Tadjiquistão (+992)</option>
+                  <option value="+66">Tailândia (+66)</option>
+                  <option value="+886">Taiwan (+886)</option>
+                  <option value="+255">Tanzânia (+255)</option>
+                  <option value="+670">Timor-Leste (+670)</option>
+                  <option value="+228">Togo (+228)</option>
+                  <option value="+676">Tonga (+676)</option>
+                  <option value="+1868">Trinidad e Tobago (+1868)</option>
+                  <option value="+216">Tunísia (+216)</option>
+                  <option value="+993">Turcomenistão (+993)</option>
+                  <option value="+90">Turquia (+90)</option>
+                  <option value="+688">Tuvalu (+688)</option>
+                  <option value="+380">Ucrânia (+380)</option>
+                  <option value="+256">Uganda (+256)</option>
+                  <option value="+598">Uruguai (+598)</option>
+                  <option value="+998">Uzbequistão (+998)</option>
+                  <option value="+678">Vanuatu (+678)</option>
+                  <option value="+379">Vaticano (+379)</option>
+                  <option value="+58">Venezuela (+58)</option>
+                  <option value="+84">Vietnã (+84)</option>
+                  <option value="+260">Zâmbia (+260)</option>
+                  <option value="+263">Zimbábue (+263)</option>
+                </select>
+                <input type="tel" id="telefone" name="WhatsApp" inputmode="tel" autocomplete="tel-national" placeholder="(00) 00000-0000" required>
+              </div>
+            </div>
+          </div>
+
+          <div class="campo">
+            <label for="local">Local e cidade</label>
+            <input type="text" id="local" name="Local" autocomplete="address-level2" required>
+          </div>
+
+          <div><button class="botao" type="submit">Enviar pedido</button></div>
+        </form>
+
+        <p class="ou">Prefere conversar? <a href="https://wa.me/5517992645411?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20de%20fotografia.">Chame no WhatsApp</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <span>© 2026 Jean Tosta</span>
+      <span>Santa Fé do Sul e região</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
