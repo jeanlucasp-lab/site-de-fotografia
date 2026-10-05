@@ -408,7 +408,7 @@ div.tile .rotulo { display: none; }
 @media (max-width: 820px) {
   #portfolio .categorias a.tile .rotulo,
   .pagina .galeria a.tile .rotulo {
-    inset: auto auto 1rem 1rem;
+    top: auto; right: auto; bottom: 1rem; left: 1rem;
     display: block;
     max-width: calc(100% - 2rem);
     padding: .4rem .85rem;
@@ -420,5 +420,7 @@ div.tile .rotulo { display: none; }
     opacity: 1;
     border-radius: 3px;
     pointer-events: none;
+    visibility: visible;
+    z-index: 1;
   }
 }
